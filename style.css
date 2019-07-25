@@ -16,5 +16,5 @@ like the old Gameboy and other early handheld games.*/
 	padding: 12px 20px;
 	margin: 8px 0;
 	box-sizing: border-box;
-	resize: none;
+  resize: none;
 }

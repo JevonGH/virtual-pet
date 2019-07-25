@@ -1,9 +1,3 @@
-// Pet Status:
-// Happy:  <(^_^)>  ->  <(^o^)>
-// Sad:    <(v_v)>  <(-_-)>
-// Sleep:  <(z_z)> Zzz -> zZz -> zzZ
-// Sick:   <(x_X)>  ->  <(X_x)>
-
 let pet = {
 	life: 80,
 	hunger: 40,
@@ -104,9 +98,3 @@ function harmPet() {
 }
 	
 let hungerInterval = setInterval(function(){checkPetStatus()}, 10000);
-
-// Use interval to make animations, if pet status is Okay/Happy?
-// Win condition: keep pet from dying for x amount of time?
-// If no win condition, try level up system? Counter checks if pet is Okay/Happy, adds to exp.
-// Counter: If Happy, add 40 exp. If Okay, add 20 exp. Else add no exp. 100 exp to lvl up. 
-
